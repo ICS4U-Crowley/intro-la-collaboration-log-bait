@@ -3,12 +3,13 @@ from turtle import *
 def animate():
     print("Action d'animation")
     try:
-        # TODO code d'animation turtle ici
+        t = Turtle()
+        for i in range(700):
+            t.forward(1)
+            t.left(1) # Draw a circle
         mainloop()
-    except Terminator as e:
+    except turtle.Terminator as e:
         print('...la fenêtre a été fermée')
 
-# Code pour tester cette module indépendamment du programme principal
 if __name__ == "__main__":  
-    # TODO ajouter des tests unitaires pour les fonctions
     animate()
