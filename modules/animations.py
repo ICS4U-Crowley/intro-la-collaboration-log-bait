@@ -1,7 +1,12 @@
+from turtle import *
+
 def animate():
     print("Action d'animation")
     try:
-        # TODO code d'animation turtle ici
+        t = Turtle()
+        for i in range(350):
+            t.forward(1)
+            t.left(1)
         mainloop()
     except Terminator as e:
         print('...la fenêtre a été fermée')
