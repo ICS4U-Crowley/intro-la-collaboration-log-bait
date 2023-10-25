@@ -13,5 +13,4 @@ def animate():
 
 # Code pour tester cette module indépendamment du programme principal
 if __name__ == "__main__":  
-    # TODO ajouter des tests unitaires pour les fonctions
     animate()
