@@ -1,15 +1,12 @@
-from turtle import *
-
 def animate():
     print("Action d'animation")
     try:
-        t = Turtle()
-        for i in range(700):
-            t.forward(1)
-            t.left(1) # Draw a circle
+        # TODO code d'animation turtle ici
         mainloop()
-    except turtle.Terminator as e:
+    except Terminator as e:
         print('...la fenêtre a été fermée')
 
+# Code pour tester cette module indépendamment du programme principal
 if __name__ == "__main__":  
+    # TODO ajouter des tests unitaires pour les fonctions
     animate()
