@@ -16,17 +16,14 @@ def initialise():
 def loop():
     """() -> None"""
     while (True):
-        choice = cli.menu(options)
-
-        # TODO supprimer les appels bidons ci-dessous en \
-        # les insérant dans une structure logique appropriée \
-        # pour la gestion du choix
-        calc.calc()
-        anim.animate()
-        
-        cli.clear()
-
-        # TODO briser la boucle de façon appropriée dans la structure logique
+        choix = cli.menu(options)
+        if choix == "1":
+            calc.calc()
+        elif choix == "2":
+            anim.animate()
+        elif choix == "3":
+            cli.clear()
+            break
         return 
 
 def terminate():
