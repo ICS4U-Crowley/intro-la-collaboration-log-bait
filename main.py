@@ -27,6 +27,7 @@ def loop():
         return 
 
 def loopCalc():
+    """() -> None"""
     while (True):
         choix = cli.menuCalc()
         if choix == "1":
