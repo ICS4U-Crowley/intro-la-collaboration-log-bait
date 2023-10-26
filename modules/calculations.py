@@ -2,13 +2,24 @@
 Définition des fonctions pour les calculs de la 
 calculatrice
 """
+def addition(a, b):
+    return a + b
 
-# TODO remplacer cette fonction avec des fonctions appropriées
+def soustraction(a, b):
+    return a - b
 
-def calc() :
-    print("Action de calculatrice")
+def multiplication(a, b):
+    return a * b
 
+def division(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Erreur: Division par zéro"
 # Code pour tester cette module indépendamment du programme principal
 if __name__ == "__main__":  
-    # TODO ajouter des tests unitaires pour les fonctions
-    calc()
+    print(addition(5, 3))
+    print(soustraction(5, 3))
+    print(multiplication(5, 3))
+    print(division(6, 2))
+    print(division(6, 0))
