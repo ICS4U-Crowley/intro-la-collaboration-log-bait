@@ -21,7 +21,7 @@ def menu(items):
     for i in items:
         print(items.index(i)+1, i)
     
-    return input("Saisissez votre choix: ")
+    return input("> ")
 
 def clear():
     """() -> None"""
@@ -32,12 +32,26 @@ def close():
     # TODO afficher un message de sortie
     print("Merci d'avoir utilisé notre programme. Au revoir!")
 
+def menuCalc():
+    ''' () -> str '''
+    print("Ameriez vous faire de:")
+    print("1 Addition")
+    print("2 Soustraction")
+    print("3 Multiplication")
+    print("4 Division")
+    print("5 Retourner au menu")
+    choix = input("> ")
+    return choix
+
 # Code pour tester cette module indépendamment du programme principal
-if __name__ == "__main__":  
+if __name__ == "__main__": 
     # TODO ajouter/modifier les tests unitaires pour les fonctions
     clear()
     greet()
     choix = menu(["op1", "op2", "op3"])
     print("choix =", choix)
+    if choix == '2':
+        choix2 = menuCalc()
+        print("choix 2 =", choix2)
     close()
     
