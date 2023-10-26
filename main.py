@@ -18,11 +18,27 @@ def loop():
     while (True):
         choix = cli.menu(options)
         if choix == "1":
-            calc.calc()
+            cli.menuCalc()
         elif choix == "2":
             anim.animate()
         elif choix == "3":
             cli.clear()
+            break
+        return 
+
+def loopCalc():
+    """() -> None"""
+    while (True):
+        choix = cli.menuCalc()
+        if choix == "1":
+            calc.addition
+        elif choix == "2":
+            calc.soustractions
+        elif choix == "3":
+            calc.multiplication
+        elif choix == "4":
+            calc.division
+        elif choix == "5":
             break
         return 
 
