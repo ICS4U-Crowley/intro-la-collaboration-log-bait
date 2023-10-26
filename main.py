@@ -22,7 +22,6 @@ def loop():
         elif choix == "2":
             anim.animate()
         elif choix == "3":
-            cli.clear()
             break
         return 
 
@@ -31,15 +30,15 @@ def loopCalc():
     while (True):
         choix = cli.menuCalc()
         if choix == "1":
-            calc.addition
+            calc.addition()
         elif choix == "2":
-            calc.soustraction
+            calc.soustraction()
         elif choix == "3":
-            calc.multiplication
+            calc.multiplication()
         elif choix == "4":
-            calc.division
+            calc.division()
         elif choix == "5":
-            break
+            loop()
         return 
 
 def terminate():
