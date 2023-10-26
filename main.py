@@ -18,7 +18,7 @@ def loop():
     while (True):
         choix = cli.menu(options)
         if choix == "1":
-            cli.menuCalc()
+            loopCalc()
         elif choix == "2":
             anim.animate()
         elif choix == "3":
@@ -33,7 +33,7 @@ def loopCalc():
         if choix == "1":
             calc.addition
         elif choix == "2":
-            calc.soustractions
+            calc.soustraction
         elif choix == "3":
             calc.multiplication
         elif choix == "4":
