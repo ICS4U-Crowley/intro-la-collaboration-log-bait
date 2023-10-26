@@ -2,18 +2,25 @@
 Définition des fonctions pour les calculs de la 
 calculatrice
 """
-a = int(input("Ecrivez le premier nombre: "))
-b = int(input("Ecrivez le deuxieme nombre: "))
+
 def addition():
+    a = int(input("Ecrivez le premier nombre: "))
+    b = int(input("Ecrivez le deuxieme nombre: "))
     print(a + b) 
 
 def soustraction():
+    a = int(input("Ecrivez le premier nombre: "))
+    b = int(input("Ecrivez le deuxieme nombre: "))
     print(a - b)
 
 def multiplication():
+    a = int(input("Ecrivez le premier nombre: "))
+    b = int(input("Ecrivez le deuxieme nombre: "))
     print(a * b)
 
 def division():
+    a = int(input("Ecrivez le premier nombre: "))
+    b = int(input("Ecrivez le deuxieme nombre: "))
     if b != 0:
         print(a / b)
     else:
