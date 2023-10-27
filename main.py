@@ -19,6 +19,7 @@ def loop():
     while (True):
         choix = cli.menu(options)
         if choix == "1":
+            cli.clear()
             while (True):
                 choix = cli.menu(optionsCalc)
                 if choix == "1":
