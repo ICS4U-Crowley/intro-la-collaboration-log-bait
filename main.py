@@ -37,8 +37,6 @@ def loop():
             return
         cli.clear()
 
-def loopCalc():
-    """() -> None"""
     
 
 def terminate():
