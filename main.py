@@ -7,6 +7,7 @@ Point de lancement du programme
 """
 
 options = ["Calculatrice", "Animation", "Quitter"]
+optionsCalc = ["Addition", "Soustraction", "Multiplication", "Division", "Quitter" ]
 
 def initialise():
     """() -> None"""
@@ -18,7 +19,18 @@ def loop():
     while (True):
         choix = cli.menu(options)
         if choix == "1":
-            loopCalc()
+            while (True):
+                choix = cli.menu(optionsCalc)
+                if choix == "1":
+                    calc.addition()
+                elif choix == "2":
+                    calc.soustraction()
+                elif choix == "3":
+                    calc.multiplication()
+                elif choix == "4":
+                    calc.division()
+                elif choix == "5":
+                    loop() 
         elif choix == "2":
             anim.animate()
         elif choix == "3":
@@ -27,19 +39,7 @@ def loop():
 
 def loopCalc():
     """() -> None"""
-    while (True):
-        choix = cli.menuCalc()
-        if choix == "1":
-            calc.addition()
-        elif choix == "2":
-            calc.soustraction()
-        elif choix == "3":
-            calc.multiplication()
-        elif choix == "4":
-            calc.division()
-        elif choix == "5":
-            loop()
-        return 
+    
 
 def terminate():
     """() -> None"""
