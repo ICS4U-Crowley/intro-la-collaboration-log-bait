@@ -7,12 +7,15 @@ Point de lancement du programme
 """
 
 options = ["Calculatrice", "Animation", "Quitter"]
-optionsCalc = ["Addition", "Soustraction", "Multiplication", "Division", "Quitter" ]
+optionsCalc = ["Addition", "Soustraction",
+               "Multiplication", "Division", "Quitter"]
+
 
 def initialise():
     """() -> None"""
     cli.clear()
     cli.greet()
+
 
 def loop():
     """() -> None"""
