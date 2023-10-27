@@ -36,8 +36,10 @@ def loop():
         elif choix == "3":
             return
         cli.clear()
-        
-        
+
+def loopCalc():
+    """() -> None"""
+    
 
 def terminate():
     """() -> None"""
