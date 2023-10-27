@@ -30,12 +30,12 @@ def loop():
                 elif choix == "4":
                     calc.division()
                 elif choix == "5":
-                    loop() 
+                    break
         elif choix == "2":
             anim.animate()
         elif choix == "3":
-            break
-        return 
+            return
+        cli.clear()
 
 def loopCalc():
     """() -> None"""
