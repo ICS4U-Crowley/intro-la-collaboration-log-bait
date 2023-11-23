@@ -24,7 +24,9 @@ Compléter un petit logiciel en équipe en divisant les tâches à faire dans ch
 
 Compétence | Prochaines étapes | Description | Points forts
 --- | --- | --- | ---
-Communication | . | Tous les commentaires temporaires sont remplacés par du code et des commentaires appropriés. | .
-Communication | . | Il y a des échanges de commentaires durant chaque pull request entre le demandeur et le réviseur | .
-Mise en application | . | Chaque membre a fait chaque partie du processus collaboratif (développement, tests, pull request, révision) | .
-Mise en application | . | Le programme final est fonctionnel ou les problèmes connus sont clairement indiqués dans la documentation (pull requests) du projet | .
+Communication | - | Tous les commentaires temporaires sont remplacés par du code et des commentaires appropriés. | ✔
+Communication | Il y a plusieurs PR ou le créateur l'a résolu lui-même sans interaction visible avec l'équipe, surtout pour Thomas et Dante. Il y en a encore plus où il n'y a pas de commentaire soumis dans le PR par la personne qui a révisé le PR. Seulement les PR 4, 5 et 7 ont inclus un commentaire initial décrivant les changements. | Il y a des échanges de commentaires durant chaque pull request entre le demandeur et le réviseur | L'équipe travaillait étroitement en personne.
+Mise en application | - | Chaque membre a fait chaque partie du processus collaboratif (développement, tests, pull request, révision) | ✔
+Mise en application | - | Le programme final est fonctionnel ou les problèmes connus sont clairement indiqués dans la documentation (pull requests) du projet | ✔
+
+## Résultat final : CO 4- MA 4++
